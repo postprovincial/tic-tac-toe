@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameContainer {
+    margin: 0;
+    padding: 0;
+    display: flex; /* If you're centering with align-items */
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.gameGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 200px;
+    width: 200px;
+}
+
+.gameCell{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(157, 157, 157);
+    justify-content: center;
+    align-items: center;
+}
